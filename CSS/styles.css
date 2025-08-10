@@ -1,12 +1,13 @@
 * {
+  
+.roboto-<uniquifier> {
   font-family: "Roboto", sans-serif;
-}
-
-.roboto {
-  font-weight: 400; /* Defina um peso, como 400 para regular */
-  font-style: normal;
   font-optical-sizing: auto;
-  font-variation-settings: "wdth" 100; /* Tamanho da largura, se necessário */
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 }
 
 h1 {
