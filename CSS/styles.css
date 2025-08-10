@@ -1,17 +1,15 @@
-*{
-    
-.roboto-{uniquifier {
+* {
   font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: (weight);
+}
+
+.roboto {
+  font-weight: 400; /* Defina um peso, como 400 para regular */
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100; /* Tamanho da largura, se necessário */
 }
 
 h1 {
-    color: red;
-
-  }
-}
+  color: red;
+  font-family: "Roboto", sans-serif; /* Garanta que o h1 tenha Roboto */
 }
