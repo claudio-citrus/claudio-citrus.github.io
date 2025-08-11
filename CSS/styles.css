@@ -1,17 +1,20 @@
+/* Aplicando fontes para todos os elementos */
 * {
-  
-
-.roboto-<uniquifier> {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 }
 
+/* Definindo um estilo para a classe roboto, se for usar uma fonte variável */
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;  /* Substitua por um peso de fonte específico, como 400, 700, etc. */
+  font-style: normal;
+  font-variation-settings: "wdth" 100; /* Ajuste da largura da fonte */
+}
+
+/* Definindo estilos para o título h1 */
 h1 {
   color: red;
-  font-family: "Roboto", sans-serif; /* Garanta que o h1 tenha Roboto */
+  font-family: "Roboto", sans-serif;
 }
