@@ -40,3 +40,18 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+/* Containers */
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#bio-container {
+  flex: 1 1 20%;
+  min-height: 100vh;
+  background-color: var(--bio-bg-color);
+  text-align: center;
+  padding: 30px 12px;
+  border-right: 5px solid var(--bio-border-color);
+}
