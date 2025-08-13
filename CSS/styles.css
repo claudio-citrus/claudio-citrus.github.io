@@ -55,3 +55,8 @@ body{
   padding: 30px 12px;
   border-right: 5px solid var(--bio-border-color);
 }
+
+#bio-container img {
+  width: 150px;
+  height: 150px;
+}
