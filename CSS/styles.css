@@ -227,5 +227,16 @@ body{
     max-width: 60%;
     margin: 10px auto;
   }
+
+  #about-container {
+    text-align: center;
+    padding: 30px;
+  }
+
+  #about-container .description{
+    margin: 10px auto;
+    max-width: 100%;
+    line-height: 26px;
+  }
   
 }
