@@ -109,3 +109,13 @@ body{
   justify-content: center;
 }
 
+#email-container ion-icon,
+#email-container a {
+  flex: 1 1 0;
+}
+
+#email-container a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  max-width: 225px;
+}
