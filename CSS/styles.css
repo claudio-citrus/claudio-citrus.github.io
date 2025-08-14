@@ -70,6 +70,9 @@ body{
   margin-bottom: 25px;
 }
 
+#bio-container h1 {
+  margin-bottom: 25px;
+}
 #bio-container p {
   margin-bottom: 20px;
 }
